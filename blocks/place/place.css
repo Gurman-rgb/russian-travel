@@ -1,3 +1,7 @@
+.place {
+  font-family: 'Inter';
+}
+
 @media screen and (min-width: 1280px) {
   .place {
     display: flex;
@@ -6,6 +10,7 @@
     flex-wrap: wrap;
     max-width: 984px;
     max-height: 660px;
+    margin: 0;
   }
 }
 
