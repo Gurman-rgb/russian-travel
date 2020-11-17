@@ -6,7 +6,7 @@
   line-height: 28px;
   letter-spacing: 0em;
   color: #fff;
-  align-self: flex-end;
+  text-align: right;
 }
 
 .header__lang-link:first-of-type {
@@ -23,15 +23,6 @@
   opacity: .8;
 }
 
-@media screen and (min-width: 1280px) {
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-}
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
     font-family: Inter;
@@ -39,7 +30,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    text-align: right;
     color: #FFFFFF;
+    text-align: right;
   }
 }
