@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Inter-bold';
+  src: url('Inter-Bold.woff2') format('woff2'),
+      url('Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.lead__title {
+  margin: auto;
+  font-family: 'Inter-bold';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__title {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__title {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__title {
+    margin: 0;
+    max-width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+}
