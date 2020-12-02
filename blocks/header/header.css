@@ -1,5 +1,5 @@
 .header {
-  display: inline-block;
+  display: grid;
   margin: 0;
 }
 
@@ -10,6 +10,8 @@
     padding-left: 48px;
     padding-top: 28px;
     padding-bottom: 56px;
+    grid-template-rows: 1, 52;
+    grid-template-columns: 180 30 30;
   }
 }
 
@@ -20,6 +22,8 @@
     padding-left: 48px;
     padding-top: 28px;
     padding-bottom: 48px;
+    grid-template-rows: 1, 52;
+    grid-template-columns: 3, 180;
   }
 }
 
@@ -30,6 +34,8 @@
     padding-left: 24px;
     padding-top: 28px;
     padding-bottom: 48px;
+    grid-template-rows: 1, 52;
+    grid-template-columns: 3, 180;
   }
 }
 
@@ -40,5 +46,7 @@
     padding-left: 16px;
     padding-top: 16px;
     padding-bottom: 48px;
+    grid-template-rows: 1, 42;
+    grid-template-columns: 3, 146;
   }
 }

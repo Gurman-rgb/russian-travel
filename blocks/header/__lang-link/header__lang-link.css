@@ -16,14 +16,20 @@
   letter-spacing: 0em;
   color: #fff;
   text-align: right;
+  position: relative;
+  grid-row-start: 2;
+  grid-row-end: 1;
+  max-width: 30px;
 }
 
 .header__lang-link:first-of-type {
   text-decoration-line: underline;
+  grid-column-start: 9;
 }
 
 .header__lang-link:last-of-type {
   text-decoration: none;
+  grid-column-start: 10;
 }
 
 .header__lang-link:hover {

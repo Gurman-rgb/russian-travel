@@ -1,7 +1,3 @@
-.place {
-  font-family: 'Inter';
-}
-
 @media screen and (min-width: 1280px) {
   .place {
     display: flex;

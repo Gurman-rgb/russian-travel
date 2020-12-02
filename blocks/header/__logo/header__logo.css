@@ -1,6 +1,9 @@
 .header__logo {
   background-image: url(../../../images/image.svg);
   background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
 }
 
 @media screen and (min-width: 1280px) {
