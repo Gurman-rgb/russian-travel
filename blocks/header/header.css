@@ -11,7 +11,7 @@
     padding-top: 28px;
     padding-bottom: 56px;
     grid-template-rows: 1, 52;
-    grid-template-columns: 180 30 30;
+    grid-template-columns: 180 repeat(8, 30);
   }
 }
 

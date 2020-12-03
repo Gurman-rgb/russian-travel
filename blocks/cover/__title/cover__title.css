@@ -1,14 +1,7 @@
-@font-face {
-  font-family: 'Inter-bold';
-  src: url('Inter-Bold.woff2') format('woff2'),
-      url('Inter-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 .cover__title {
-  font-family: 'Inter-bold';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -18,11 +11,14 @@
   position: relative;
   z-index: 100;
   margin: 0;
+  grid-column-start: 2;
+  grid-row-start: 2;
 }
 
 @media screen and (min-width: 1280px) {
   .cover__title {
-    max-width: 560px;
+    grid-column-start: 2;
+    grid-row-start: 2;
   }
 }
 

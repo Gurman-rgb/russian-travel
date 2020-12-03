@@ -1,15 +1,6 @@
-@font-face {
-  font-family: 'Inter-bold';
-  src: url('Inter-Bold.woff2') format('woff2'),
-      url('Inter-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 .lead__title {
   margin: auto;
-  font-family: 'Inter-bold';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;

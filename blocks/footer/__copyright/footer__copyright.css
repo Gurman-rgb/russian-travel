@@ -1,14 +1,6 @@
-@font-face {
-  font-family: 'Inter-black';
-  src: url('Inter-Black.woff2') format('woff2'),
-      url('Inter-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
 
 .footer__copyright {
-  font-family: 'Inter-black';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -45,8 +37,8 @@
     line-height: 14px;
     color: #FFFFFF;
     margin: 0;
-    text-align: left;
-    padding-left: 16px;
+    padding-top: 16px;
     grid-row-start: 6;
+    text-align: left;
   }
 }
