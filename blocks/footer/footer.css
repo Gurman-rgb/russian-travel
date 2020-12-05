@@ -11,7 +11,8 @@
     max-height: 18px;
     padding-left: 48px;
     position: relative;
-    grid-template-columns: repeat(9, 119px);
+    grid-template-columns: 50px 57px 94px 86px 106px 150px 150px 150px 186px;
+    gap: 18px;
   }
 }
 

@@ -2,7 +2,7 @@
   background-image: url(../../../images/image.svg);
   background-size: cover;
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 15;
   grid-row-start: 1;
 }
 

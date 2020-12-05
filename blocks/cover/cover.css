@@ -14,7 +14,7 @@
     min-height: 740px;
     max-height: 741px;
     margin: auto;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: repeat(4, 25%);
   }
 }
@@ -25,7 +25,7 @@
     max-width: 100%;
     min-height: 740px;
     max-height: 741px;
-    grid-template-columns: 29% 42% 29%;
+    grid-template-columns: 15% 70% 15%;
     grid-template-rows: repeat(4, 25%);
   }
 }
@@ -36,7 +36,7 @@
     max-width: 100%;
     min-height: 740px;
     max-height: 741px;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: repeat(4, 25%);
   }
 }
@@ -47,7 +47,7 @@
     min-height: 200px;
     max-height: 200px;
     justify-content: start;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(4, 25%);
   }
 }

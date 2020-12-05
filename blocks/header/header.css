@@ -11,7 +11,8 @@
     padding-top: 28px;
     padding-bottom: 56px;
     grid-template-rows: 1, 52;
-    grid-template-columns: 180 repeat(8, 30);
+    grid-template-columns: repeat(30, 35px);
+    gap: 18px;
   }
 }
 

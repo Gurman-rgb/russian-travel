@@ -12,19 +12,14 @@
   z-index: 100;
   margin: 0;
   grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 2;
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__title {
     max-width: 560px;
+    margin-left: 10%;
   }
 }
 
@@ -44,5 +39,7 @@
     text-align: center;
     color: #FFFFFF;
     max-width: 288px;
+    grid-column-start: 1;
+    grid-row-start: 2;
   }
 }
