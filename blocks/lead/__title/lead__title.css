@@ -1,6 +1,6 @@
 .lead__title {
   margin: auto;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', 'sans-serif';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -34,7 +34,7 @@
   .lead__title {
     margin: 0;
     max-width: 100%;
-    font-family: Inter;
+    font-family: 'Inter', 'Arial', 'sans-serif';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
