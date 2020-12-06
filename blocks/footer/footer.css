@@ -8,7 +8,6 @@
     padding-top: 92px;
     padding-bottom: 24px;
     min-width: 92.5%;
-    max-height: 18px;
     padding-left: 48px;
     position: relative;
     grid-template-columns: 50px 57px 94px 86px 106px 150px 150px 150px 186px;
@@ -21,7 +20,6 @@
     padding-top: 92px;
     padding-bottom: 24px;
     min-width: 92.5%;
-    max-height: 18px;
     padding-left: 48px;
     position: relative;
     grid-template-columns: repeat(8, 119px);
@@ -33,7 +31,6 @@
     padding-top: 88px;
     padding-bottom: 24px;
     min-width: 92.5%;
-    max-height: 18px;
     padding-left: 24px;
     position: relative;
     grid-template-columns: repeat(8, 119px);
@@ -45,7 +42,6 @@
     padding-top: 64px;
     padding-bottom: 24px;
     padding-left: 16px;
-    flex-direction: column;
     max-width: 186px;
     position: relative;
     grid-template-rows: repeat(6, 20px);

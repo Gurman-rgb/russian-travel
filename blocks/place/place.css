@@ -5,7 +5,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     max-width: 984px;
-    max-height: 660px;
     margin: 0;
   }
 }
@@ -17,7 +16,6 @@
     justify-content: center;
     flex-wrap: wrap;
     max-width: 928px;
-    max-height: 644px;
   }
 }
 
@@ -28,7 +26,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 720px;
-    max-height: 540px;
     padding-bottom: 72px;
   }
 }
