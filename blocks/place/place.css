@@ -16,6 +16,7 @@
     justify-content: center;
     flex-wrap: wrap;
     max-width: 928px;
+    padding-bottom: 80px;
   }
 }
 
@@ -38,5 +39,6 @@
     flex-wrap: wrap;
     max-width: 320px;
     padding-bottom: 48px;
+    margin: auto;
   }
 }

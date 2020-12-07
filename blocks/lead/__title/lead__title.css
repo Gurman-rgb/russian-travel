@@ -35,10 +35,11 @@
     margin: 0;
     max-width: 100%;
     font-family: 'Inter', 'Arial', 'sans-serif';
+    font-size: 40px;
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-    color: #FFFFFF;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 }

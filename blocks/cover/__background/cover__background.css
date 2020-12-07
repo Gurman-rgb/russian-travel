@@ -19,7 +19,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__background {
     width: 100%;
-    min-height: 740px;
+    min-height: 640px;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;

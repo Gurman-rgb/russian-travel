@@ -3,6 +3,12 @@
   position: relative;
 }
 
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1440px;
+  }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .page {
     max-width: 1279px;
