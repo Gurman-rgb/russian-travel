@@ -1,9 +1,13 @@
 @media screen and (min-width: 1280px) {
   .place__image {
-    padding-top: 48px;
     max-width: 460px;
     max-height: 460px;
-    padding-right: 40px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  .place__image:last-child {
+    grid-row-start: 3;
   }
 }
 
@@ -13,6 +17,7 @@
     max-width: 440px;
     max-height: 440px;
     padding-right: 32px;
+    grid-column-start: 1;
   }
 }
 
@@ -22,6 +27,7 @@
     max-width: 340px;
     max-height: 340px;
     padding-right: 28px;
+    grid-column-start: 1;
   }
 }
 

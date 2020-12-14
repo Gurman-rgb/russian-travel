@@ -6,6 +6,10 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
 }
 
 .place__link:hover {

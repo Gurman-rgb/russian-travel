@@ -9,4 +9,7 @@
   letter-spacing: 0.2em;
   color: #AAA;
   text-transform: uppercase;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
 }

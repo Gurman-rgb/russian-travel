@@ -1,19 +1,18 @@
 @media screen and (min-width: 1280px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 152px 230px 230px;
     max-width: 984px;
     margin: 0;
+    padding-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     flex-wrap: wrap;
     max-width: 928px;
     padding-bottom: 80px;
@@ -22,10 +21,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
     max-width: 720px;
     padding-bottom: 72px;
   }
